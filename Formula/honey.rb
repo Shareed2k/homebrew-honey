@@ -5,16 +5,16 @@
 class Honey < Formula
   desc "DevOps tool to help find an instance in sea of clouds."
   homepage "https://github.com/bringg/honey"
-  version "0.1.7"
+  version "0.1.8"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/bringg/honey/releases/download/v0.1.7/honey_Darwin_x86_64.zip"
-    sha256 "fdd6014d25bb5af385fc409ecaf8b1c0f0b3692c71986aaf5e7a487e6a1bef43"
+    url "https://github.com/bringg/honey/releases/download/v0.1.8/honey_Darwin_x86_64.zip"
+    sha256 "92e32637a3ce5ea65dc3a248f8cf6fd619f1c71825bbe1a959fa94fe7494681f"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/bringg/honey/releases/download/v0.1.7/honey_Linux_x86_64.zip"
-    sha256 "3b1afd187724f8f32d79d414e1861534f4bd5b472b3a721ced9170ea4b3d1f43"
+    url "https://github.com/bringg/honey/releases/download/v0.1.8/honey_Linux_x86_64.zip"
+    sha256 "03866baf189b370ea397ffc6fffaba709adfa8763e61b1bff970bdbb62d49d80"
   end
 
   def install
