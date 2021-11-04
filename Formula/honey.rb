@@ -6,7 +6,6 @@ class Honey < Formula
   desc "DevOps tool to help find an instance in sea of clouds."
   homepage "https://github.com/bringg/honey"
   version "0.1.13"
-  bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
