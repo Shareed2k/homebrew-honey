@@ -6,7 +6,6 @@ class Honey < Formula
   desc "DevOps tool to help find an instance in sea of clouds."
   homepage "https://github.com/shareed2k/honey"
   version "0.1.2"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/shareed2k/honey/releases/download/v0.1.2/honey_Darwin_x86_64.zip"
